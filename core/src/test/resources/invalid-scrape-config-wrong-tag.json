@@ -1,0 +1,30 @@
+{
+  "pg-scrape": {
+    "url": "http://www.something.com",
+    "action-sequence": [
+      {
+        "type": "extract",
+        "step": 1,
+        "key": "title",
+        "selector": ".post-header h1"
+      },
+      {
+        "type": "extract2",
+        "step": 2,
+        "key": "subtitle",
+        "selector": "#post-1617 .textwidget.post-content h2"
+      },
+      {
+        "type": "extract",
+        "step": 4,
+        "key": "info",
+        "selector": "#pageContainer #mainContent h2.strapline"
+      },
+      {
+        "type": "click",
+        "step": 3,
+        "selector": ".sd2-alternate-hidden-content dd div span a']"
+      }
+    ]
+  }
+}

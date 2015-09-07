@@ -1,0 +1,47 @@
+{
+  "pg-scrape": {
+    "url": "http://www.timeout.com",
+    "action-sequence": [
+      {
+        "type": "extract",
+        "step": 1,
+        "key": "title",
+        "selector": ".post-header h1"
+      },
+      {
+        "type": "extract",
+        "step": 2,
+        "key": "subtitle",
+        "selector": "#post-1617 .textwidget.post-content h2"
+      },
+      {
+        "type": "extract",
+        "step": 4,
+        "key": "info",
+        "selector": "#pageContainer #mainContent h2.strapline"
+      },
+      {
+        "type": "click",
+        "step": 3,
+        "selector": ".sd2-alternate-hidden-content dd div span a"
+      },
+      {
+        "type": "write",
+        "step": 5,
+        "input": "restaurants",
+        "selector": "#searchText"
+      },
+      {
+        "type": "click",
+        "step": 6,
+        "selector": ".submit.searchButton"
+      },
+      {
+        "type": "extract",
+        "step": 7,
+        "key": "first-restaurant",
+        "selector": ".tiles > div:first-child h3 a"
+      }
+    ]
+  }
+}

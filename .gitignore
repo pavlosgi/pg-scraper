@@ -1,0 +1,20 @@
+*.class
+*.log
+.idea/
+.idea_modules/
+project/target/
+
+# sbt specific
+.cache/
+.history/
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/com.moviejinni.collector.boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet

@@ -1,0 +1,12 @@
+{
+  "pg-scrape": {
+    "action-sequence": [
+      {
+        "type": "extract",
+        "step": 1,
+        "key": "subtitle",
+        "selector": "#post-1617 .textwidget.post-content h2"
+      }
+    ]
+  }
+}

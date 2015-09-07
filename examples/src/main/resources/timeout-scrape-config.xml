@@ -1,0 +1,31 @@
+<pg-scrape>
+    <url>http://www.timeout.com</url>
+    <action-sequence>
+        <extract step="1">
+            <key>title</key>
+            <selector>.post-header h1</selector>
+        </extract>
+        <extract step="2">
+            <key>subtitle</key>
+            <selector>#post-1617 .textwidget.post-content h2</selector>
+        </extract>
+        <click step="3">
+            <selector>.sd2-alternate-hidden-content dd div span a</selector>
+        </click>
+        <extract step="4">
+            <key>info</key>
+            <selector>#pageContainer #mainContent h2.strapline</selector>
+        </extract>
+        <write step="5">
+            <input>restaurants</input>
+            <selector>#searchText</selector>
+        </write>
+        <click step="6">
+            <selector>.submit.searchButton</selector>
+        </click>
+        <extract step="7">
+            <key>first-restaurant</key>
+            <selector>.tiles > div:first-child h3 a</selector>
+        </extract>
+    </action-sequence>
+</pg-scrape>

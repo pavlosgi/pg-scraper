@@ -1,0 +1,8 @@
+<pg-scrape>
+    <action-sequence>
+        <extract step="1">
+            <key>subtitle</key>
+            <selector>#post-1617 .textwidget.post-content h2</selector>
+        </extract>
+    </action-sequence>
+</pg-scrape>
