@@ -1,9 +1,9 @@
-package com.pavlosgi.pg_scraper.core.parser
+package pavlosgi.pg_scraper.core.parser
 
 import java.io.File
 
-import com.pavlosgi.pg_scraper.core.actions.{Write, Click, Extract}
-import com.pavlosgi.pg_scraper.core.config.ScrapeConfig
+import pavlosgi.pg_scraper.core.actions.{Write, Click, Extract}
+import pavlosgi.pg_scraper.core.config.ScrapeConfig
 import com.typesafe.scalalogging.slf4j.Logger
 import org.json4s.DefaultFormats
 import org.json4s.JsonAST.JValue

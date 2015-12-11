@@ -1,6 +1,6 @@
-package com.pavlosgi.pg_scraper.core.dsl
+package pavlosgi.pg_scraper.core.dsl
 
-import com.pavlosgi.pg_scraper.core.BaseSpec
+import pavlosgi.pg_scraper.core.BaseSpec
 
 class DslSpec extends BaseSpec {
 

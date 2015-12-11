@@ -1,8 +1,8 @@
-package com.pavlosgi.pg_scraper.core.parser
+package pavlosgi.pg_scraper.core.parser
 
 import java.io.File
 
-import com.pavlosgi.pg_scraper.core.BaseSpec
+import pavlosgi.pg_scraper.core.BaseSpec
 
 import scala.util.{Failure, Success}
 

@@ -66,7 +66,7 @@ object MainBuild extends Build {
 
   lazy val pgScraperExamples = Project("pg-scraper-examples", file("examples"))
     .settings(defaultSettings ++ Revolver.settings ++ Seq(
-    mainClass in(Compile, run) := Some("com.pavlosgi.pg_scraper.examples.TimeoutScrape")): _*)
+    mainClass in(Compile, run) := Some("pavlosgi.pg_scraper.examples.TimeoutScrape")): _*)
     .settings(noPublishing: _*)
     .dependsOn(pgScraperEngineCore)
 

@@ -1,8 +1,8 @@
-package com.pavlosgi.pg_scraper.examples
+package pavlosgi.pg_scraper.examples
 
 import java.io.File
 
-import com.pavlosgi.pg_scraper.core.dsl._
+import pavlosgi.pg_scraper.core.dsl._
 
 import scala.concurrent.Await
 import scala.concurrent.duration._

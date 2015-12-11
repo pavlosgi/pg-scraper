@@ -1,4 +1,4 @@
-package com.pavlosgi.pg_scraper.core.scrape
+package pavlosgi.pg_scraper.core.scrape
 
 import scala.collection.immutable.LinearSeq
 

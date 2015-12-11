@@ -1,10 +1,10 @@
-package com.pavlosgi.pg_scraper.core.scrape
+package pavlosgi.pg_scraper.core.scrape
 
 import java.io.File
 import java.util.logging.Level
 
-import com.pavlosgi.pg_scraper.core.actions.{Write, Action, Click, Extract}
-import com.pavlosgi.pg_scraper.core.parser.Parser
+import pavlosgi.pg_scraper.core.actions.{Write, Action, Click, Extract}
+import pavlosgi.pg_scraper.core.parser.Parser
 import com.typesafe.scalalogging.slf4j.Logger
 import org.openqa.selenium.htmlunit.HtmlUnitDriver
 import org.openqa.selenium.{By, WebDriver}

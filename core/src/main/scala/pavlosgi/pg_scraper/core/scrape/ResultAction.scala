@@ -1,6 +1,6 @@
-package com.pavlosgi.pg_scraper.core.scrape
+package pavlosgi.pg_scraper.core.scrape
 
-import com.pavlosgi.pg_scraper.core.actions.Action
+import pavlosgi.pg_scraper.core.actions.Action
 
 sealed abstract class ResultAction(action:Action)
 

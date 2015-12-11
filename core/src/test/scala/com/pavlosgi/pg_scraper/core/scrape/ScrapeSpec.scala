@@ -1,7 +1,7 @@
-package com.pavlosgi.pg_scraper.core.scrape
+package pavlosgi.pg_scraper.core.scrape
 
-import com.pavlosgi.pg_scraper.core.BaseSpec
-import com.pavlosgi.pg_scraper.core.dsl._
+import pavlosgi.pg_scraper.core.BaseSpec
+import pavlosgi.pg_scraper.core.dsl._
 
 class ScrapeSpec extends BaseSpec {
 

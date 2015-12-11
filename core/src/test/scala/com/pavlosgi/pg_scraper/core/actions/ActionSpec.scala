@@ -1,6 +1,6 @@
-package com.pavlosgi.pg_scraper.core.actions
+package pavlosgi.pg_scraper.core.actions
 
-import com.pavlosgi.pg_scraper.core.BaseSpec
+import pavlosgi.pg_scraper.core.BaseSpec
 
 class ActionSpec extends BaseSpec{
 

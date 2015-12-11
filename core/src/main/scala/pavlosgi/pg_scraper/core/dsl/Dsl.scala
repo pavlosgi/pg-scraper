@@ -1,10 +1,10 @@
-package com.pavlosgi.pg_scraper.core
+package pavlosgi.pg_scraper.core
 
 import java.io.File
 
-import com.pavlosgi.pg_scraper.core.actions._
-import com.pavlosgi.pg_scraper.core.parser.Parser
-import com.pavlosgi.pg_scraper.core.scrape._
+import pavlosgi.pg_scraper.core.actions._
+import pavlosgi.pg_scraper.core.parser.Parser
+import pavlosgi.pg_scraper.core.scrape._
 
 import scala.util.{Failure, Success}
 

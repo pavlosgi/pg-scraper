@@ -1,6 +1,6 @@
-package com.pavlosgi.pg_scraper.core
+package pavlosgi.pg_scraper.core
 
-import com.pavlosgi.pg_scraper.core.actions.{Action, ActionSeq}
+import pavlosgi.pg_scraper.core.actions.{Action, ActionSeq}
 import org.specs2.mock.Mockito
 import org.specs2.mutable.Specification
 
